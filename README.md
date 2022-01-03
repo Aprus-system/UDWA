@@ -2,11 +2,11 @@
 UDWA:UAV Dataset with Altitude
 
 # Download
-| Part | URL |
-| --- | --- |
-| Place01-Place15 | [https://zenodo.org/record/5813232#.YdKDG2BByUk](https://zenodo.org/record/5813232#.YdKDG2BByUk) |
-| Place16-Place30 | [https://zenodo.org/record/5813236#.YdKDJWBByUk](https://zenodo.org/record/5813236#.YdKDJWBByUk) |
-| Place31-Place93 | [https://zenodo.org/record/5813325#.YdKDImBByUk](https://zenodo.org/record/5813325#.YdKDImBByUk) |
+| Part | URL | DOI |
+| --- | --- | --- |
+| Place01-Place15 | [https://zenodo.org/record/5813232#.YdKDG2BByUk](https://zenodo.org/record/5813232#.YdKDG2BByUk) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5813232.svg)](https://doi.org/10.5281/zenodo.5813232) |
+| Place16-Place30 | [https://zenodo.org/record/5813236#.YdKDJWBByUk](https://zenodo.org/record/5813236#.YdKDJWBByUk) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5813236.svg)](https://doi.org/10.5281/zenodo.5813236) |
+| Place31-Place93 | [https://zenodo.org/record/5813325#.YdKDImBByUk](https://zenodo.org/record/5813325#.YdKDImBByUk) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5813325.svg)](https://doi.org/10.5281/zenodo.5813325) |
 
 # Collection Platform
 We use [Mavic Air 2](https://www.dji.com/mavic-air-2) and [DJI Fly](https://www.dji.com/dji-fly) to capture the video stream required by the dataset. Mavic Air 2 is a compact and portable drone. The most important thing is that its primary camera with 12 million pixels can capture high-definition video with a resolution of 3840×2160 at a rate of 60 frames per second. And DJI Fly is its supporting flight control software, which can control the drone while viewing the real-time images collected by its camera, which is very helpful for the scene selection and altitude control. 
