@@ -34,6 +34,25 @@ We use [Mavic Air 2](https://www.dji.com/mavic-air-2) and [DJI Fly](https://www.
 | ![place25](/assets/images/raw/place25-50M-DJI_0383-00001.jpg) | ![place26](/assets/images/raw/place26-50M-DJI_0388-00001.jpg) | ![place27](/assets/images/raw/place27-50M-DJI_0392-00001.jpg) | ![place28](/assets/images/raw/place28-50M-DJI_0397-00001.jpg) | ![place29](/assets/images/raw/place29-50M-DJI_0402-00001.jpg) | ![place30](/assets/images/raw/place30-50M-DJI_0407-00001.jpg) | ![place31](/assets/images/raw/place31-50M-DJI_0411-00001.jpg) | ![place32](/assets/images/raw/place32-50M-DJI_0415-00001.jpg) |
 | ![place33](/assets/images/raw/place33-50M-DJI_0420-00001.jpg) | ![place34](/assets/images/raw/place34-50M-DJI_0425-00001.jpg) | ![place35](/assets/images/raw/place35-50M-DJI_0430-00001.jpg) | ![place36](/assets/images/raw/place36-50M-DJI_0434-00001.jpg) | ![place37](/assets/images/raw/place37-50M-DJI_0438-00001.jpg) | ![place38](/assets/images/raw/place38-50M-DJI_0443-00001.jpg) | ![place39](/assets/images/raw/place39-50M-DJI_0447-00001.jpg) |  |
 
+All pictures contain a `.json` file with the same name, the format is as follows: 
+
+```json
+{
+  "iso": "100",
+  "shutter": "1/500.0",
+  "fnum": "280",
+  "ev": "0",
+  "ct": "5684",
+  "color_md": "default",
+  "focal_len": "240",
+  "latitude": "24.865050",
+  "longitude": "102.853570",
+  "altitude": "50.600000",
+  "time": "2021-07-07 09:45:44,990,047"
+}
+```
+
+
 
 ## Dataset Annotation
 
@@ -45,7 +64,7 @@ We first selected four places with fewer goals and marked a total of 2866 pictur
 
 It takes about 5 minutes on average to mark such a picture. We carry out 8 hours of marking a day and finally complete the marking of 2866 pictures in 30 days.
 
-The annotation tool we used is [CVAT](https://github.com/openvinotoolkit/cvat). And to facilitate the use of more people, the annotation file adopts the standard coco format.
+The annotation tool we used is [CVAT](https://github.com/openvinotoolkit/cvat). And to facilitate the use of more people, the annotation file adopts [the standard coco format](https://cocodataset.org/#format-data).
 
 We will continue to annotate other pictures and use them for future research. 
 
